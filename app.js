@@ -63,4 +63,21 @@ const path=require('node:path');
 //     console.log(stats.isDirectory());
 // })
 
+// fs.mkdir('./test/test3',(err)=>{
+// if (err) throw new Error();
+// })
+// fs.rmdir('./test/test3',(err)=>{
+//     console.log(err);
+// });
+// fs.rmdir('./test/test2',{recursive:true},(err)=>{
+//     console.log(err);
+// });
+// fs.rename('./test/text2.txt','./test/text3.txt',(err)=>{
+//     console.log(err);
+// });
+fs.rename('./test/text3.txt','./test/test2/text2.txt',(err)=>{
+    console.log(err);
+});
+
+
 
